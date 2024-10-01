@@ -9,6 +9,16 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
+### Anselm Long
+
+<img src="images/anselmlong.png" width="200px">
+
+[[github](https://github.com/anselmlong)]
+[[portfolio](team/anselmlong.md)]
+
+* Role: Team Lead
+* Responsibilities: Deliverables and deadlines, Tracking and scheduling
+
 ### Leroy Tan
 
 <img src="images/leroytan.png" width="200px">
@@ -19,41 +29,22 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: General + Testing
 
-### Jane Doe
+### Rachel Yeo Hui Min
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/rachelyeohm.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Team Lead
-* Responsibilities: UI
-
-### Johnny Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](http://github.com/rachelyeohm)]
+[[portfolio](team/rachelyeohm.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: General Software Responsibilities
 
-### Jean Doe
+### Raihan Rizqullah
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/raihahahan.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
-
-### James Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/raihahahan)]
+[[portfolio](team/raihahahan.md)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: General Software Development | Assist Team Members with technical issues
