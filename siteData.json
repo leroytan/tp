@@ -3,6 +3,7 @@
   "pages": [
     {
       "src": "AboutUs.md",
+      "title": "About Us",
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
@@ -15,6 +16,7 @@
     },
     {
       "src": "Configuration.md",
+      "title": "Configuration guide",
       "headings": {
         "configuration-guide": "Configuration guide"
       },
@@ -35,6 +37,7 @@
     },
     {
       "src": "DeveloperGuide.md",
+      "title": "Developer Guide",
       "headings": {
         "ab-3-developer-guide": "AB-3 Developer Guide",
         "acknowledgements": "Acknowledgements",
@@ -65,6 +68,7 @@
     },
     {
       "src": "Documentation.md",
+      "title": "Documentation guide",
       "headings": {
         "documentation-guide": "Documentation Guide"
       },
@@ -100,6 +104,7 @@
     },
     {
       "src": "UserGuide.md",
+      "title": "User Guide",
       "headings": {
         "ab-3-user-guide": "AB-3 User Guide",
         "quick-start": "Quick start",
