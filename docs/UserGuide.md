@@ -1,15 +1,16 @@
 ---
-layout: page
-title: User Guide
+  layout: default.md
+  title: "User Guide"
+  pageNav: 3
 ---
 
-VBook is a **desktop app for freelance software developers to manage contacts, optimized for use via a Command Line 
-Interface** (CLI) while still 
-having the benefits of a Graphical User Interface (GUI). If you can type fast, VBook can get your contact management 
-tasks done faster than traditional GUI apps.
+# AB-3 User Guide
+>>>>>>> 4b79bf657be739b7ca67d1f268a60d65310f60ec
 
-* Table of Contents
-{:toc}
+AddressBook Level 3 (AB3) is a **desktop app for managing contacts, optimized for use via a  Line Interface** (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, AB3 can get your contact management tasks done faster than traditional GUI apps.
+
+<!-- * Table of Contents -->
+<page-nav-print />
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -46,9 +47,9 @@ tasks done faster than traditional GUI apps.
 
 ## Features
 
-<div markdown="block" class="alert alert-info">
+<box type="info" seamless>
 
-**:information_source: Notes about the command format:**<br>
+**Notes about the command format:**<br>
 
 * Words in `UPPER_CASE` are the parameters to be supplied by the user.<br>
 
@@ -67,7 +68,7 @@ tasks done faster than traditional GUI apps.
   e.g. if the command specifies `help 123`, it will be interpreted as `help`.
 
 * If you are using a PDF version of this document, be careful when copying and pasting commands that span multiple lines as space characters surrounding line-breaks may be omitted when copied over to the application.
-</div>
+</box>
 
 ### Viewing help : `:help`
 
@@ -84,9 +85,10 @@ Adds a person to the address book.
 Long command format: `:add -n NAME -p PHONE_NUMBER -e EMAIL -l ADDRESS [-t TAG]…​`
 Short command format: `:a -n NAME -p PHONE_NUMBER -e EMAIL -l ADDRESS [-t TAG]…​`
 
-<div markdown="span" class="alert alert-primary">:bulb: **Tip:**
-A person can have any number of tags (including 0)
-</div>
+<box type="tip" seamless>
+
+**Tip:** A person can have any number of tags (including 0)
+</box>
 
 Examples:
 * `:add -n John Doe -p 98765432 -e johnd@example.com -l John street, block 123, #01-01`
@@ -210,13 +212,13 @@ to save manually.
 VBook data are saved automatically as a JSON file `[JAR file location]/data/addressbook.json`. Advanced users are 
 welcome to update data directly by editing that data file.
 
-<div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
-If your changes to the data file makes its format invalid, VBook will discard all data and start with an empty data 
-file 
-at the next run. Hence, it is recommended to take a backup of the file before editing it.<br>
-Furthermore, certain edits can cause VBook to behave in unexpected ways (e.g., if a value entered is outside of the 
-acceptable range). Therefore, edit the data file only if you are confident that you can update it correctly.
-</div>
+
+<box type="warning" seamless>
+
+**Caution:**
+If your changes to the data file makes its format invalid, AddressBook will discard all data and start with an empty data file at the next run.  Hence, it is recommended to take a backup of the file before editing it.<br>
+Furthermore, certain edits can cause the AddressBook to behave in unexpected ways (e.g., if a value entered is outside the acceptable range). Therefore, edit the data file only if you are confident that you can update it correctly.
+</box>
 
 
 --------------------------------------------------------------------------------------------------------------------
@@ -250,5 +252,3 @@ acceptable range). Therefore, edit the data file only if you are confident that 
 | **List**   | `:list`<br/>`:ls`                                                                                                              | `:list`<br/>`:ls`                                                                                                                               |
 | **Redo**   | `:redo`                                                                                                                        | `:redo`                                                                                                                                         |
 | **Undo**   | `:undo`                                                                                                                        | `:undo`                                                                                                                                         |
-
-
