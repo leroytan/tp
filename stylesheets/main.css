@@ -91,6 +91,7 @@ mark {
 
 #page-nav {
   border-left: 1px solid lightgrey;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1299.98px) {
@@ -160,7 +161,7 @@ mark {
       zoom: 0.8;  /* might not work on some browsers */
   }
 }
-
+h1,
 h2,
 h3,
 h4,
